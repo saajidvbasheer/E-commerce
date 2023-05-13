@@ -2,6 +2,7 @@
   --themeColor: #0D5E8F;
   --boxShadow: #00000029;
   --border: #DDDDDD;
+  
 }
 
 html, body {
@@ -10,6 +11,7 @@ html, body {
 .main_container {
   height: calc(100% - 56px);
   display: flex;
+  
 }
 .sidebar {
   width: 250px;
@@ -105,4 +107,14 @@ html, body {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.login-cont,.login-form{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
 }
