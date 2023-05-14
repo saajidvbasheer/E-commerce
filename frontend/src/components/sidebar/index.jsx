@@ -1,5 +1,5 @@
 import SidebarItem from "./sidebar-item";
-const items = ["Home", "Products", "Categories", "About us"]
+const items = ["Login", "Products", "Categories", "About us"]
 const Sidebar = () => {
     return (
         <div className="sidebar">
