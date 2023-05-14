@@ -12,11 +12,11 @@ function App() {
       <div className='main_container'>
         <Sidebar />
         <Switch>
-          <Route path="/login">
-            <Login />
+          <Route path="/products">
+          <Products/>
           </Route>
           <Route path="">
-            <Products />
+          <Login/>
           </Route>
         </Switch>
       </div>

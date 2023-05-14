@@ -4,12 +4,13 @@ const Login = () => {
     
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
+   
     
     const handleSubmit = (e) =>{
         e.preventDefault();
         console.log(email);
         console.log(pass);
-        onclick="window.location.href='http://localhost:3000/home'"; 
+        window.location.href = 'http://localhost:3000/products';
     }
     return (
         <div className="login-cont">
