@@ -116,5 +116,6 @@ html, body {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  min-width: 150vh;
   
 }

@@ -8,6 +8,8 @@ const Login = () => {
     const handleSubmit = (e) =>{
         e.preventDefault();
         console.log(email);
+        console.log(pass);
+        onclick="window.location.href='http://localhost:3000/home'"; 
     }
     return (
         <div className="login-cont">
@@ -16,7 +18,7 @@ const Login = () => {
                 <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="Email" id="email" name="email"></input>
                 <label for="password">Password</label>
                 <input value={pass} onChange={(e) => setPass(e.target.value)}type="password" placeholder="********" id="password" name="password"></input>
-                <button type="submit">Log In</button>     
+                <button type="submit">login</button>
             </form>
         </div>
         
